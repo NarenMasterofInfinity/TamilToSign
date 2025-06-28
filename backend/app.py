@@ -1,5 +1,6 @@
 from fastapi import FastAPI, UploadFile, File, Form
 from typing import Optional
+import uvicorn
 
 app = FastAPI()
 
@@ -37,3 +38,12 @@ async def retrieve_history():
 async def store_data(text: str = Form(...), video_path: str = Form(...)):
     # ...store video and text in history...
     return None
+
+if __name__ == "__main__":
+    
+    uvicorn.run(
+        "app:app",
+        host="0.0.0.0",  # Listen on all interfaces for public access
+        port=8000,
+        reload=True
+    )
