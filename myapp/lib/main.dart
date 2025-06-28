@@ -3,6 +3,8 @@ import 'package:file_picker/file_picker.dart';
 import 'page_two.dart';
 import 'page_three.dart';
 import 'history_page.dart';
+import 'api_service.dart';
+import 'dart:io';
 
 void main() {
   runApp(
@@ -42,23 +44,47 @@ class _MyAppState extends State<MyApp> {
 
   Map<String, String>? _selectedHistoryItem;
 
-  void _onTextChanged(String value) {
+  void _onTextChanged(String value) async {
     setState(() {
       _inputText = value;
       _pickedFile = null;
     });
+    try {
+      // Example: Use textToGloss API
+      final gloss = await ApiService.textToGloss(value);
+      print('Gloss result: $gloss');
+      // You can setState to store gloss if needed
+    } catch (e) {
+      print('Error calling textToGloss API: $e');
+    }
   }
 
   Future<void> _onFilePicked() async {
-    FilePickerResult? result = await FilePicker.platform.pickFiles(
-      type: FileType.custom,
-      allowedExtensions: ['mp3', 'wav', 'mp4', 'avi', 'mov', 'm4a'],
-    );
-    if (result != null && result.files.isNotEmpty) {
-      setState(() {
-        _pickedFile = result.files.first;
-        _inputText = null;
-      });
+    try {
+      FilePickerResult? result = await FilePicker.platform.pickFiles(
+        type: FileType.custom,
+        allowedExtensions: ['mp3', 'wav', 'mp4', 'avi', 'mov', 'm4a'],
+      );
+      if (result != null && result.files.isNotEmpty) {
+        setState(() {
+          _pickedFile = result.files.first;
+          _inputText = null;
+        });
+        // Example: Use sttAudio or sttVideo based on file type
+        final ext = _pickedFile!.extension?.toLowerCase();
+        String? apiResult;
+        if (['mp3', 'wav', 'm4a'].contains(ext)) {
+          apiResult = await ApiService.sttAudio(File(_pickedFile!.path!));
+        } else if (['mp4', 'avi', 'mov'].contains(ext)) {
+          apiResult = await ApiService.sttVideo(File(_pickedFile!.path!));
+        }
+        // Handle apiResult as needed (e.g., show in UI or setState)
+        // For now, just print
+        print('API result: $apiResult');
+      }
+    } catch (e) {
+      print('Error picking file or calling API: $e');
+      // Optionally show a snackbar or dialog
     }
   }
 
@@ -114,56 +140,53 @@ class _MyAppState extends State<MyApp> {
                 onPressed: _goBackToInput,
               )
             : (_selectedIndex == 2
-                ? IconButton(
-                    icon: Icon(Icons.arrow_back),
-                    onPressed: _closeHistoryDetail,
-                  )
-                : null),
+                  ? IconButton(
+                      icon: Icon(Icons.arrow_back),
+                      onPressed: _closeHistoryDetail,
+                    )
+                  : null),
       ),
       body: _selectedIndex == 0
           ? (!_inputCompleted
-              ? PageOne(
-                  inputMode: _inputMode,
-                  onInputModeChanged: _onInputModeChanged,
-                  onTextChanged: _onTextChanged,
-                  onFilePicked: _onFilePicked,
-                  inputText: _inputText,
-                  pickedFile: _pickedFile,
-                  onNext:
-                      (_inputText != null && _inputText!.isNotEmpty) ||
-                              _pickedFile != null
-                          ? _onNext
-                          : null,
-                  onRemoveFile: _pickedFile != null
-                      ? _removePickedFile
-                      : null,
-                )
-              : Column(
-                  children: [
-                    Expanded(
-                      child: PageOnePreview(
-                        inputMode: _inputMode,
-                        inputText: _inputText,
-                        pickedFile: _pickedFile,
+                ? PageOne(
+                    inputMode: _inputMode,
+                    onInputModeChanged: _onInputModeChanged,
+                    onTextChanged: _onTextChanged,
+                    onFilePicked: _onFilePicked,
+                    inputText: _inputText,
+                    pickedFile: _pickedFile,
+                    onNext:
+                        (_inputText != null && _inputText!.isNotEmpty) ||
+                            _pickedFile != null
+                        ? _onNext
+                        : null,
+                    onRemoveFile: _pickedFile != null
+                        ? _removePickedFile
+                        : null,
+                  )
+                : Column(
+                    children: [
+                      Expanded(
+                        child: PageOnePreview(
+                          inputMode: _inputMode,
+                          inputText: _inputText,
+                          pickedFile: _pickedFile,
+                        ),
                       ),
-                    ),
-                    Expanded(child: PageTwo()),
-                    Expanded(
-                      child: Builder(builder: (context) => PageThree()),
-                    ),
-                  ],
-                ))
+                      Expanded(child: PageTwo()),
+                      Expanded(
+                        child: Builder(builder: (context) => PageThree()),
+                      ),
+                    ],
+                  ))
           : (_selectedIndex == 1
-              ? HistoryPage(
-                  history: _history,
-                  onItemTap: _showHistoryDetail,
-                )
-              : _selectedHistoryItem != null
-                  ? HistoryDetailPage(
-                      text: _selectedHistoryItem!['text'] ?? '',
-                      videoPath: _selectedHistoryItem!['video'] ?? '',
-                    )
-                  : SizedBox.shrink()),
+                ? HistoryPage(history: _history, onItemTap: _showHistoryDetail)
+                : _selectedHistoryItem != null
+                ? HistoryDetailPage(
+                    text: _selectedHistoryItem!['text'] ?? '',
+                    videoPath: _selectedHistoryItem!['video'] ?? '',
+                  )
+                : SizedBox.shrink()),
       bottomNavigationBar: BottomNavigationBar(
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
