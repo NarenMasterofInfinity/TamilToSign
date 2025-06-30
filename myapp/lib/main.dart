@@ -5,6 +5,7 @@ import 'page_three.dart';
 import 'history_page.dart';
 import 'api_service.dart';
 import 'dart:io';
+import 'package:video_player/video_player.dart';
 
 void main() {
   runApp(
@@ -44,19 +45,11 @@ class _MyAppState extends State<MyApp> {
 
   Map<String, String>? _selectedHistoryItem;
 
-  void _onTextChanged(String value) async {
+  void _onTextChanged(String value) {
     setState(() {
       _inputText = value;
       _pickedFile = null;
     });
-    try {
-      // Example: Use textToGloss API
-      final gloss = await ApiService.textToGloss(value);
-      print('Gloss result: $gloss');
-      // You can setState to store gloss if needed
-    } catch (e) {
-      print('Error calling textToGloss API: $e');
-    }
   }
 
   Future<void> _onFilePicked() async {
@@ -94,7 +87,17 @@ class _MyAppState extends State<MyApp> {
     });
   }
 
-  void _onNext() {
+  void _onNext() async {
+    // Call textToGloss only when Next is pressed and inputMode is text
+    if (_inputMode == 'text' && _inputText != null && _inputText!.isNotEmpty) {
+      try {
+        final gloss = await ApiService.textToGloss(_inputText!);
+        print('Gloss result: $gloss');
+        // Optionally, store gloss in state if needed
+      } catch (e) {
+        print('Error calling textToGloss API: $e');
+      }
+    }
     setState(() {
       _inputCompleted = true;
     });
@@ -173,7 +176,13 @@ class _MyAppState extends State<MyApp> {
                           pickedFile: _pickedFile,
                         ),
                       ),
-                      Expanded(child: PageTwo()),
+                      Expanded(
+                        child: PageTwo(
+                          inputText: _inputText,
+                          pickedFile: _pickedFile,
+                          inputMode: _inputMode,
+                        ),
+                      ),
                       Expanded(
                         child: Builder(builder: (context) => PageThree()),
                       ),

@@ -3,8 +3,9 @@ import 'dart:io';
 import 'package:http/http.dart' as http;
 
 class ApiService {
-  static const String ip = "192.168.1.18";
+  static const String ip = "192.168.56.71";
   static const String baseUrl = 'http://$ip:8000';
+  static String? lastVideoPath;
 
   static Future<String?> sttAudio(File audioFile) async {
     var request = http.MultipartRequest(
@@ -68,6 +69,25 @@ class ApiService {
     );
     if (response.statusCode == 200) {
       return response.body;
+    }
+    return null;
+  }
+
+  static Future<String?> glossToPoseVideoUrl(String gloss) async {
+    final response = await http.post(
+      Uri.parse('$baseUrl/gloss_to_posevideo'),
+      headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+      body: {'gloss': gloss},
+    );
+    if (response.statusCode == 200) {
+      // Expecting a JSON response: { "video_url": "http://..." }
+      try {
+        final data = jsonDecode(response.body);
+        if (data is Map && data['url'] != null) {
+          lastVideoPath = data['url'];
+          return data['url'] as String;
+        }
+      } catch (_) {}
     }
     return null;
   }

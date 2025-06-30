@@ -1,0 +1,309 @@
+2025-06-30 19:11:00,971 [INFO] Downloaded file to /home/naren-root/stanza_resources/resources.json
+2025-06-30 19:11:00,973 [INFO] Downloading default packages for language: ta (Tamil) ...
+2025-06-30 19:11:01,615 [INFO] File exists: /home/naren-root/stanza_resources/ta/default.zip
+2025-06-30 19:11:03,146 [INFO] Finished downloading models and saved to /home/naren-root/stanza_resources
+2025-06-30 19:11:03,147 [INFO] Checking for updates to resources.json in case models have been updated.  Note: this behavior can be turned off with download_method=None or download_method=DownloadMethod.REUSE_RESOURCES
+2025-06-30 19:11:03,190 [INFO] Downloaded file to /home/naren-root/stanza_resources/resources.json
+2025-06-30 19:11:03,614 [INFO] Loading these models for language: ta (Tamil):
+============================
+| Processor | Package      |
+----------------------------
+| tokenize  | ttb          |
+| mwt       | ttb          |
+| pos       | ttb_nocharlm |
+============================
+
+2025-06-30 19:11:03,614 [INFO] Using device: cpu
+2025-06-30 19:11:03,614 [INFO] Loading: tokenize
+2025-06-30 19:11:03,617 [INFO] Loading: mwt
+2025-06-30 19:11:03,621 [INFO] Loading: pos
+2025-06-30 19:11:04,454 [INFO] Done loading processors!
+2025-06-30 19:11:04,455 [INFO] Checking for updates to resources.json in case models have been updated.  Note: this behavior can be turned off with download_method=None or download_method=DownloadMethod.REUSE_RESOURCES
+2025-06-30 19:11:04,490 [INFO] Downloaded file to /home/naren-root/stanza_resources/resources.json
+2025-06-30 19:11:04,910 [INFO] Loading these models for language: ta (Tamil):
+============================
+| Processor | Package      |
+----------------------------
+| tokenize  | ttb          |
+| mwt       | ttb          |
+| pos       | ttb_nocharlm |
+| lemma     | ttb_nocharlm |
+============================
+
+2025-06-30 19:11:04,910 [INFO] Using device: cpu
+2025-06-30 19:11:04,910 [INFO] Loading: tokenize
+2025-06-30 19:11:04,914 [INFO] Loading: mwt
+2025-06-30 19:11:04,918 [INFO] Loading: pos
+2025-06-30 19:11:05,747 [INFO] Loading: lemma
+2025-06-30 19:11:05,772 [INFO] Done loading processors!
+2025-06-30 19:11:20,085 [INFO] Downloaded file to /home/naren-root/stanza_resources/resources.json
+2025-06-30 19:11:20,087 [INFO] Downloading default packages for language: ta (Tamil) ...
+2025-06-30 19:11:20,584 [INFO] File exists: /home/naren-root/stanza_resources/ta/default.zip
+2025-06-30 19:11:22,133 [INFO] Finished downloading models and saved to /home/naren-root/stanza_resources
+2025-06-30 19:11:22,135 [INFO] Checking for updates to resources.json in case models have been updated.  Note: this behavior can be turned off with download_method=None or download_method=DownloadMethod.REUSE_RESOURCES
+2025-06-30 19:11:22,182 [INFO] Downloaded file to /home/naren-root/stanza_resources/resources.json
+2025-06-30 19:11:22,605 [INFO] Loading these models for language: ta (Tamil):
+============================
+| Processor | Package      |
+----------------------------
+| tokenize  | ttb          |
+| mwt       | ttb          |
+| pos       | ttb_nocharlm |
+============================
+
+2025-06-30 19:11:22,605 [INFO] Using device: cpu
+2025-06-30 19:11:22,605 [INFO] Loading: tokenize
+2025-06-30 19:11:22,609 [INFO] Loading: mwt
+2025-06-30 19:11:22,613 [INFO] Loading: pos
+2025-06-30 19:11:23,443 [INFO] Done loading processors!
+2025-06-30 19:11:23,444 [INFO] Checking for updates to resources.json in case models have been updated.  Note: this behavior can be turned off with download_method=None or download_method=DownloadMethod.REUSE_RESOURCES
+2025-06-30 19:11:23,500 [INFO] Downloaded file to /home/naren-root/stanza_resources/resources.json
+2025-06-30 19:11:23,927 [INFO] Loading these models for language: ta (Tamil):
+============================
+| Processor | Package      |
+----------------------------
+| tokenize  | ttb          |
+| mwt       | ttb          |
+| pos       | ttb_nocharlm |
+| lemma     | ttb_nocharlm |
+============================
+
+2025-06-30 19:11:23,927 [INFO] Using device: cpu
+2025-06-30 19:11:23,927 [INFO] Loading: tokenize
+2025-06-30 19:11:23,930 [INFO] Loading: mwt
+2025-06-30 19:11:23,934 [INFO] Loading: pos
+2025-06-30 19:11:24,764 [INFO] Loading: lemma
+2025-06-30 19:11:24,790 [INFO] Done loading processors!
+2025-06-30 19:11:34,162 [INFO] Downloaded file to /home/naren-root/stanza_resources/resources.json
+2025-06-30 19:11:34,175 [INFO] Downloading default packages for language: ta (Tamil) ...
+2025-06-30 19:11:34,673 [INFO] File exists: /home/naren-root/stanza_resources/ta/default.zip
+2025-06-30 19:11:36,239 [INFO] Finished downloading models and saved to /home/naren-root/stanza_resources
+2025-06-30 19:11:36,240 [INFO] Checking for updates to resources.json in case models have been updated.  Note: this behavior can be turned off with download_method=None or download_method=DownloadMethod.REUSE_RESOURCES
+2025-06-30 19:11:36,275 [INFO] Downloaded file to /home/naren-root/stanza_resources/resources.json
+2025-06-30 19:11:36,708 [INFO] Loading these models for language: ta (Tamil):
+============================
+| Processor | Package      |
+----------------------------
+| tokenize  | ttb          |
+| mwt       | ttb          |
+| pos       | ttb_nocharlm |
+============================
+
+2025-06-30 19:11:36,708 [INFO] Using device: cpu
+2025-06-30 19:11:36,708 [INFO] Loading: tokenize
+2025-06-30 19:11:36,712 [INFO] Loading: mwt
+2025-06-30 19:11:36,717 [INFO] Loading: pos
+2025-06-30 19:11:37,558 [INFO] Done loading processors!
+2025-06-30 19:11:37,559 [INFO] Checking for updates to resources.json in case models have been updated.  Note: this behavior can be turned off with download_method=None or download_method=DownloadMethod.REUSE_RESOURCES
+2025-06-30 19:11:37,606 [INFO] Downloaded file to /home/naren-root/stanza_resources/resources.json
+2025-06-30 19:11:38,045 [INFO] Loading these models for language: ta (Tamil):
+============================
+| Processor | Package      |
+----------------------------
+| tokenize  | ttb          |
+| mwt       | ttb          |
+| pos       | ttb_nocharlm |
+| lemma     | ttb_nocharlm |
+============================
+
+2025-06-30 19:11:38,045 [INFO] Using device: cpu
+2025-06-30 19:11:38,045 [INFO] Loading: tokenize
+2025-06-30 19:11:38,048 [INFO] Loading: mwt
+2025-06-30 19:11:38,052 [INFO] Loading: pos
+2025-06-30 19:11:38,909 [INFO] Loading: lemma
+2025-06-30 19:11:38,933 [INFO] Done loading processors!
+2025-06-30 19:14:59,571 [INFO] Downloaded file to /home/naren-root/stanza_resources/resources.json
+2025-06-30 19:14:59,574 [INFO] Downloading default packages for language: ta (Tamil) ...
+2025-06-30 19:15:00,061 [INFO] File exists: /home/naren-root/stanza_resources/ta/default.zip
+2025-06-30 19:15:01,633 [INFO] Finished downloading models and saved to /home/naren-root/stanza_resources
+2025-06-30 19:15:01,634 [INFO] Checking for updates to resources.json in case models have been updated.  Note: this behavior can be turned off with download_method=None or download_method=DownloadMethod.REUSE_RESOURCES
+2025-06-30 19:15:01,690 [INFO] Downloaded file to /home/naren-root/stanza_resources/resources.json
+2025-06-30 19:15:02,120 [INFO] Loading these models for language: ta (Tamil):
+============================
+| Processor | Package      |
+----------------------------
+| tokenize  | ttb          |
+| mwt       | ttb          |
+| pos       | ttb_nocharlm |
+| lemma     | ttb_nocharlm |
+============================
+
+2025-06-30 19:15:02,120 [INFO] Using device: cpu
+2025-06-30 19:15:02,120 [INFO] Loading: tokenize
+2025-06-30 19:15:02,124 [INFO] Loading: mwt
+2025-06-30 19:15:02,128 [INFO] Loading: pos
+2025-06-30 19:15:03,003 [INFO] Loading: lemma
+2025-06-30 19:15:03,028 [INFO] Done loading processors!
+2025-06-30 19:15:28,336 [INFO] Downloaded file to /home/naren-root/stanza_resources/resources.json
+2025-06-30 19:15:28,338 [INFO] Downloading default packages for language: ta (Tamil) ...
+2025-06-30 19:15:28,723 [INFO] File exists: /home/naren-root/stanza_resources/ta/default.zip
+2025-06-30 19:15:30,290 [INFO] Finished downloading models and saved to /home/naren-root/stanza_resources
+2025-06-30 19:15:30,291 [INFO] Checking for updates to resources.json in case models have been updated.  Note: this behavior can be turned off with download_method=None or download_method=DownloadMethod.REUSE_RESOURCES
+2025-06-30 19:15:30,337 [INFO] Downloaded file to /home/naren-root/stanza_resources/resources.json
+2025-06-30 19:15:30,682 [INFO] Loading these models for language: ta (Tamil):
+============================
+| Processor | Package      |
+----------------------------
+| tokenize  | ttb          |
+| mwt       | ttb          |
+| pos       | ttb_nocharlm |
+| lemma     | ttb_nocharlm |
+============================
+
+2025-06-30 19:15:30,682 [INFO] Using device: cpu
+2025-06-30 19:15:30,682 [INFO] Loading: tokenize
+2025-06-30 19:15:30,686 [INFO] Loading: mwt
+2025-06-30 19:15:30,690 [INFO] Loading: pos
+2025-06-30 19:15:31,472 [INFO] Loading: lemma
+2025-06-30 19:15:31,497 [INFO] Done loading processors!
+2025-06-30 19:17:39,723 [INFO] Downloaded file to /home/naren-root/stanza_resources/resources.json
+2025-06-30 19:17:39,725 [INFO] Downloading default packages for language: ta (Tamil) ...
+2025-06-30 19:17:40,110 [INFO] File exists: /home/naren-root/stanza_resources/ta/default.zip
+2025-06-30 19:17:41,615 [INFO] Finished downloading models and saved to /home/naren-root/stanza_resources
+2025-06-30 19:17:41,615 [INFO] Checking for updates to resources.json in case models have been updated.  Note: this behavior can be turned off with download_method=None or download_method=DownloadMethod.REUSE_RESOURCES
+2025-06-30 19:17:41,662 [INFO] Downloaded file to /home/naren-root/stanza_resources/resources.json
+2025-06-30 19:17:42,007 [INFO] Loading these models for language: ta (Tamil):
+============================
+| Processor | Package      |
+----------------------------
+| tokenize  | ttb          |
+| mwt       | ttb          |
+| pos       | ttb_nocharlm |
+| lemma     | ttb_nocharlm |
+============================
+
+2025-06-30 19:17:42,007 [INFO] Using device: cpu
+2025-06-30 19:17:42,007 [INFO] Loading: tokenize
+2025-06-30 19:17:42,010 [INFO] Loading: mwt
+2025-06-30 19:17:42,014 [INFO] Loading: pos
+2025-06-30 19:17:42,808 [INFO] Loading: lemma
+2025-06-30 19:17:42,833 [INFO] Done loading processors!
+2025-06-30 19:18:24,981 [INFO] Received request for /gloss_to_posevideo
+2025-06-30 19:18:24,981 [INFO] Gloss input: hi
+2025-06-30 19:18:24,981 [INFO] Encoding gloss...
+2025-06-30 19:18:24,981 [ERROR] Error in /gloss_to_posevideo: name 'tokenizer' is not defined
+Traceback (most recent call last):
+  File "/home/naren-root/Documents/SIP/Android-App/backend/app.py", line 495, in gloss_to_posevideo
+    src = torch.tensor(tokenizer.encode(gloss).ids, dtype=torch.long).unsqueeze(0).to("cuda")
+                       ^^^^^^^^^
+NameError: name 'tokenizer' is not defined
+2025-06-30 19:19:14,363 [INFO] Downloaded file to /home/naren-root/stanza_resources/resources.json
+2025-06-30 19:19:14,365 [INFO] Downloading default packages for language: ta (Tamil) ...
+2025-06-30 19:19:14,855 [INFO] File exists: /home/naren-root/stanza_resources/ta/default.zip
+2025-06-30 19:19:16,419 [INFO] Finished downloading models and saved to /home/naren-root/stanza_resources
+2025-06-30 19:19:16,419 [INFO] Checking for updates to resources.json in case models have been updated.  Note: this behavior can be turned off with download_method=None or download_method=DownloadMethod.REUSE_RESOURCES
+2025-06-30 19:19:16,468 [INFO] Downloaded file to /home/naren-root/stanza_resources/resources.json
+2025-06-30 19:19:16,898 [INFO] Loading these models for language: ta (Tamil):
+============================
+| Processor | Package      |
+----------------------------
+| tokenize  | ttb          |
+| mwt       | ttb          |
+| pos       | ttb_nocharlm |
+| lemma     | ttb_nocharlm |
+============================
+
+2025-06-30 19:19:16,899 [INFO] Using device: cpu
+2025-06-30 19:19:16,899 [INFO] Loading: tokenize
+2025-06-30 19:19:16,902 [INFO] Loading: mwt
+2025-06-30 19:19:16,906 [INFO] Loading: pos
+2025-06-30 19:19:17,758 [INFO] Loading: lemma
+2025-06-30 19:19:17,782 [INFO] Done loading processors!
+2025-06-30 19:19:30,244 [INFO] Received request for /gloss_to_posevideo
+2025-06-30 19:19:30,244 [INFO] Gloss input: hi
+2025-06-30 19:19:30,244 [INFO] Encoding gloss...
+2025-06-30 19:19:30,265 [INFO] Encoded gloss: tensor([[ 2, 31, 32,  3]], device='cuda:0')
+2025-06-30 19:19:30,266 [INFO] Generating codes with transformer model...
+2025-06-30 19:19:30,654 [INFO] Generated codes: [312, 312, 312, 312, 312, 312, 252, 208, 407, 407, 35, 765, 595, 595, 595, 580, 257, 129, 629, 629]
+2025-06-30 19:19:30,654 [INFO] Quantizing and decoding pose...
+2025-06-30 19:19:30,977 [INFO] Decoded pose shape: torch.Size([80, 87, 3])
+2025-06-30 19:19:30,977 [INFO] Rendering pose frames to /tmp/tmpjgpdbm8w/frames
+2025-06-30 19:19:30,977 [INFO] POSE: (80, 87, 3) 
+2025-06-30 19:19:30,978 [INFO] Rendering pose 0
+2025-06-30 19:19:36,242 [INFO] Frames rendered, compiling video...
+2025-06-30 19:19:36,677 [INFO] Video created at /tmp/tmpjgpdbm8w/output.mp4
+2025-06-30 19:19:36,678 [INFO] Returning video URL: /outputs/pose.mp4
+2025-06-30 19:22:00,843 [INFO] Received request for /gloss_to_posevideo
+2025-06-30 19:22:00,844 [INFO] Gloss input: வணக்கம் . இன்று இருக்கிறீர்கள் எப்படி ? .
+2025-06-30 19:22:00,844 [INFO] Encoding gloss...
+2025-06-30 19:22:00,869 [INFO] Encoded gloss: tensor([[   2, 1348,  626,  102,  971,  390,   20,    3]], device='cuda:0')
+2025-06-30 19:22:00,870 [INFO] Generating codes with transformer model...
+2025-06-30 19:22:00,980 [INFO] Generated codes: [193, 416, 10, 410, 158, 215, 573, 109, 109, 508, 473, 767, 390, 390, 190, 190, 573, 533, 533, 96, 561, 561, 561, 417]
+2025-06-30 19:22:00,980 [INFO] Quantizing and decoding pose...
+2025-06-30 19:22:00,995 [INFO] Decoded pose shape: torch.Size([96, 87, 3])
+2025-06-30 19:22:00,995 [INFO] Rendering pose frames to /tmp/tmpuu24kqbj/frames
+2025-06-30 19:22:00,996 [INFO] POSE: (96, 87, 3) 
+2025-06-30 19:22:00,996 [INFO] Rendering pose 0
+2025-06-30 19:22:07,945 [INFO] Frames rendered, compiling video...
+2025-06-30 19:22:08,329 [INFO] Video created at /tmp/tmpuu24kqbj/output.mp4
+2025-06-30 19:22:08,330 [INFO] Returning video URL: /outputs/pose.mp4
+2025-06-30 19:49:39,990 [INFO] Received request for /gloss_to_posevideo
+2025-06-30 19:49:39,991 [INFO] Gloss input: {"gloss":"hi ,"}
+2025-06-30 19:49:39,991 [INFO] Encoding gloss...
+2025-06-30 19:49:39,996 [INFO] Encoded gloss: tensor([[ 2, 30, 35, 38, 42, 42, 31, 32,  3]], device='cuda:0')
+2025-06-30 19:49:39,996 [INFO] Generating codes with transformer model...
+2025-06-30 19:49:40,198 [INFO] Generated codes: [34, 100, 730, 445, 120, 573, 204, 204, 246, 246, 446, 726, 619, 439, 375, 655, 655, 655, 698, 80, 222, 132, 204, 573, 725, 246, 246, 126, 38, 100, 730, 730, 420, 246, 730, 502, 663, 122, 120, 731, 731, 446, 446, 476, 382, 166, 166, 33, 388, 388, 437, 740]
+2025-06-30 19:49:40,199 [INFO] Quantizing and decoding pose...
+2025-06-30 19:49:40,223 [INFO] Decoded pose shape: torch.Size([208, 87, 3])
+2025-06-30 19:49:40,223 [INFO] Rendering pose frames to /tmp/tmpp0m37nxs/frames
+2025-06-30 19:49:40,224 [INFO] POSE: (208, 87, 3) 
+2025-06-30 19:49:40,224 [INFO] Rendering pose 0
+2025-06-30 19:49:47,353 [INFO] Rendering pose 100
+2025-06-30 19:49:52,614 [INFO] Rendering pose 200
+2025-06-30 19:49:53,467 [INFO] Frames rendered, compiling video...
+2025-06-30 19:49:54,209 [INFO] Video created at /tmp/tmpp0m37nxs/output.mp4
+2025-06-30 19:49:54,211 [INFO] Returning video URL: /outputs/pose.mp4
+2025-06-30 23:46:39,509 [INFO] Downloaded file to /home/naren-root/stanza_resources/resources.json
+2025-06-30 23:46:39,513 [INFO] Downloading default packages for language: ta (Tamil) ...
+2025-06-30 23:46:40,110 [INFO] File exists: /home/naren-root/stanza_resources/ta/default.zip
+2025-06-30 23:46:41,711 [INFO] Finished downloading models and saved to /home/naren-root/stanza_resources
+2025-06-30 23:46:41,711 [INFO] Checking for updates to resources.json in case models have been updated.  Note: this behavior can be turned off with download_method=None or download_method=DownloadMethod.REUSE_RESOURCES
+2025-06-30 23:46:41,781 [INFO] Downloaded file to /home/naren-root/stanza_resources/resources.json
+2025-06-30 23:46:42,233 [INFO] Loading these models for language: ta (Tamil):
+============================
+| Processor | Package      |
+----------------------------
+| tokenize  | ttb          |
+| mwt       | ttb          |
+| pos       | ttb_nocharlm |
+| lemma     | ttb_nocharlm |
+============================
+
+2025-06-30 23:46:42,233 [INFO] Using device: cpu
+2025-06-30 23:46:42,233 [INFO] Loading: tokenize
+2025-06-30 23:46:42,237 [INFO] Loading: mwt
+2025-06-30 23:46:42,241 [INFO] Loading: pos
+2025-06-30 23:46:43,134 [INFO] Loading: lemma
+2025-06-30 23:46:43,158 [INFO] Done loading processors!
+2025-06-30 23:46:54,706 [INFO] Received request for /gloss_to_posevideo
+2025-06-30 23:46:54,706 [INFO] Gloss input: {"gloss":"hi ,"}
+2025-06-30 23:46:54,706 [INFO] Encoding gloss...
+2025-06-30 23:46:54,714 [INFO] Encoded gloss: tensor([[ 2, 30, 35, 38, 42, 42, 31, 32,  3]], device='cuda:0')
+2025-06-30 23:46:54,714 [INFO] Generating codes with transformer model...
+2025-06-30 23:46:54,887 [INFO] Generated codes: [34, 100, 730, 445, 120, 573, 204, 204, 246, 246, 446, 726, 619, 439, 375, 655, 655, 655, 698, 80, 222, 132, 204, 573, 725, 246, 246, 126, 38, 100, 730, 730, 420, 246, 730, 502, 663, 122, 120, 731, 731, 446, 446, 476, 382, 166, 166, 33, 388, 388, 437, 740]
+2025-06-30 23:46:54,887 [INFO] Quantizing and decoding pose...
+2025-06-30 23:46:55,051 [INFO] Decoded pose shape: torch.Size([208, 87, 3])
+2025-06-30 23:46:55,051 [INFO] Rendering pose frames to /tmp/tmpahjbx0ft/frames
+2025-06-30 23:46:55,052 [INFO] POSE: (208, 87, 3) 
+2025-06-30 23:46:55,052 [INFO] Rendering pose 0
+2025-06-30 23:47:00,860 [INFO] Rendering pose 100
+2025-06-30 23:47:06,118 [INFO] Rendering pose 200
+2025-06-30 23:47:06,940 [INFO] Frames rendered, compiling video...
+2025-06-30 23:47:07,797 [INFO] Video created at /tmp/tmpahjbx0ft/output.mp4
+2025-06-30 23:47:07,799 [INFO] Returning video URL: /outputs/pose.mp4
+2025-06-30 23:47:32,381 [INFO] Received request for /gloss_to_posevideo
+2025-06-30 23:47:32,381 [INFO] Gloss input: {"gloss":"hi ,"}
+2025-06-30 23:47:32,381 [INFO] Encoding gloss...
+2025-06-30 23:47:32,384 [INFO] Encoded gloss: tensor([[ 2, 30, 35, 38, 42, 42, 31, 32,  3]], device='cuda:0')
+2025-06-30 23:47:32,384 [INFO] Generating codes with transformer model...
+2025-06-30 23:47:32,495 [INFO] Generated codes: [34, 100, 730, 445, 120, 573, 204, 204, 246, 246, 446, 726, 619, 439, 375, 655, 655, 655, 698, 80, 222, 132, 204, 573, 725, 246, 246, 126, 38, 100, 730, 730, 420, 246, 730, 502, 663, 122, 120, 731, 731, 446, 446, 476, 382, 166, 166, 33, 388, 388, 437, 740]
+2025-06-30 23:47:32,496 [INFO] Quantizing and decoding pose...
+2025-06-30 23:47:32,497 [INFO] Decoded pose shape: torch.Size([208, 87, 3])
+2025-06-30 23:47:32,497 [INFO] Rendering pose frames to /tmp/tmp4gfmjg73/frames
+2025-06-30 23:47:32,497 [INFO] POSE: (208, 87, 3) 
+2025-06-30 23:47:32,497 [INFO] Rendering pose 0
+2025-06-30 23:47:37,829 [INFO] Rendering pose 100
+2025-06-30 23:47:43,725 [INFO] Rendering pose 200
+2025-06-30 23:47:44,077 [INFO] Frames rendered, compiling video...
+2025-06-30 23:47:44,774 [INFO] Video created at /tmp/tmp4gfmjg73/output.mp4
+2025-06-30 23:47:44,775 [INFO] Returning video URL: /outputs/pose.mp4

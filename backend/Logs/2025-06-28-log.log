@@ -1,0 +1,452 @@
+2025-06-28 16:58:11,756 [INFO] Received request for /gloss_to_posevideo
+2025-06-28 16:58:11,756 [INFO] Gloss input: மலர் அழகாக இருக்கிறது.
+2025-06-28 16:58:11,756 [INFO] Encoding gloss...
+2025-06-28 16:58:11,782 [INFO] Encoded gloss: tensor([[1, 1, 1]], device='cuda:0')
+2025-06-28 16:58:11,782 [INFO] Generating codes with transformer model...
+2025-06-28 16:58:12,200 [INFO] Generated codes: [96, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 388, 22, 22, 22]
+2025-06-28 16:58:12,200 [INFO] Quantizing and decoding pose...
+2025-06-28 16:58:12,300 [INFO] Decoded pose shape: torch.Size([400, 87, 3])
+2025-06-28 16:58:12,301 [INFO] Rendering pose frames to /tmp/tmp06skr0_s/frames
+2025-06-28 17:22:55,464 [INFO] Received request for /gloss_to_posevideo
+2025-06-28 17:22:55,464 [INFO] Gloss input: மலர் அழகாக இருக்கிறது.
+2025-06-28 17:22:55,464 [INFO] Encoding gloss...
+2025-06-28 17:22:55,466 [INFO] Encoded gloss: tensor([[1, 1, 1]], device='cuda:0')
+2025-06-28 17:22:55,466 [INFO] Generating codes with transformer model...
+2025-06-28 17:22:55,859 [INFO] Generated codes: [96, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 388, 22, 22, 22]
+2025-06-28 17:22:55,859 [INFO] Quantizing and decoding pose...
+2025-06-28 17:22:55,958 [INFO] Decoded pose shape: torch.Size([400, 87, 3])
+2025-06-28 17:22:55,958 [INFO] Rendering pose frames to /tmp/tmphdl52671/frames
+2025-06-28 17:23:11,383 [INFO] Received request for /gloss_to_posevideo
+2025-06-28 17:23:11,383 [INFO] Gloss input: மலர் அழகாக இருக்கிறது.
+2025-06-28 17:23:11,383 [INFO] Encoding gloss...
+2025-06-28 17:23:11,386 [INFO] Encoded gloss: tensor([[1, 1, 1]], device='cuda:0')
+2025-06-28 17:23:11,386 [INFO] Generating codes with transformer model...
+2025-06-28 17:23:11,796 [INFO] Generated codes: [96, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 388, 22, 22, 22]
+2025-06-28 17:23:11,796 [INFO] Quantizing and decoding pose...
+2025-06-28 17:23:11,903 [INFO] Decoded pose shape: torch.Size([400, 87, 3])
+2025-06-28 17:23:11,903 [INFO] Rendering pose frames to /tmp/tmpskr_pd7u/frames
+2025-06-28 17:24:28,167 [INFO] Received request for /gloss_to_posevideo
+2025-06-28 17:24:28,168 [INFO] Gloss input: மலர் அழகாக இருக்கிறது.
+2025-06-28 17:24:28,168 [INFO] Encoding gloss...
+2025-06-28 17:24:28,171 [INFO] Encoded gloss: tensor([[1, 1, 1]], device='cuda:0')
+2025-06-28 17:24:28,171 [INFO] Generating codes with transformer model...
+2025-06-28 17:24:28,582 [INFO] Generated codes: [96, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 388, 22, 22, 22]
+2025-06-28 17:24:28,582 [INFO] Quantizing and decoding pose...
+2025-06-28 17:24:28,684 [INFO] Decoded pose shape: torch.Size([400, 87, 3])
+2025-06-28 17:24:28,684 [INFO] Rendering pose frames to /tmp/tmpz_uybn7f/frames
+2025-06-28 17:26:37,998 [INFO] Received request for /gloss_to_posevideo
+2025-06-28 17:26:37,999 [INFO] Gloss input: மலர் அழகாக இருக்கிறது.
+2025-06-28 17:26:37,999 [INFO] Encoding gloss...
+2025-06-28 17:26:38,011 [INFO] Encoded gloss: tensor([[1, 1, 1]], device='cuda:0')
+2025-06-28 17:26:38,011 [INFO] Generating codes with transformer model...
+2025-06-28 17:26:38,420 [INFO] Generated codes: [96, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 388, 22, 22, 22]
+2025-06-28 17:26:38,420 [INFO] Quantizing and decoding pose...
+2025-06-28 17:26:38,523 [INFO] Decoded pose shape: torch.Size([400, 87, 3])
+2025-06-28 17:26:38,523 [INFO] Rendering pose frames to /tmp/tmposk9npp4/frames
+2025-06-28 17:29:12,519 [INFO] Received request for /gloss_to_posevideo
+2025-06-28 17:29:12,519 [INFO] Gloss input: மலர் அழகாக இருக்கிறது.
+2025-06-28 17:29:12,519 [INFO] Encoding gloss...
+2025-06-28 17:29:12,522 [INFO] Encoded gloss: tensor([[1, 1, 1]], device='cuda:0')
+2025-06-28 17:29:12,522 [INFO] Generating codes with transformer model...
+2025-06-28 17:29:12,950 [INFO] Generated codes: [96, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 388, 22, 22, 22]
+2025-06-28 17:29:12,950 [INFO] Quantizing and decoding pose...
+2025-06-28 17:29:13,057 [INFO] Decoded pose shape: torch.Size([400, 87, 3])
+2025-06-28 17:29:13,057 [INFO] Rendering pose frames to /tmp/tmpyv_nrlhh/frames
+2025-06-28 17:29:13,058 [INFO] POSE: (400, 87, 3) 
+2025-06-28 17:29:13,058 [INFO] Rendering pose 0
+2025-06-28 17:30:04,961 [INFO] Received request for /gloss_to_posevideo
+2025-06-28 17:30:04,961 [INFO] Gloss input: மலர் அழகாக இருக்கிறது.
+2025-06-28 17:30:04,961 [INFO] Encoding gloss...
+2025-06-28 17:30:04,964 [INFO] Encoded gloss: tensor([[1, 1, 1]], device='cuda:0')
+2025-06-28 17:30:04,964 [INFO] Generating codes with transformer model...
+2025-06-28 17:30:05,390 [INFO] Generated codes: [96, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 388, 22, 22, 22]
+2025-06-28 17:30:05,390 [INFO] Quantizing and decoding pose...
+2025-06-28 17:30:05,497 [INFO] Decoded pose shape: torch.Size([400, 87, 3])
+2025-06-28 17:30:05,497 [INFO] Rendering pose frames to /tmp/tmpxz36gmt5/frames
+2025-06-28 17:30:05,498 [INFO] POSE: (400, 87, 3) 
+2025-06-28 17:30:05,498 [INFO] Rendering pose 0
+2025-06-28 17:30:39,661 [INFO] Received request for /gloss_to_posevideo
+2025-06-28 17:30:39,662 [INFO] Gloss input: மலர் அழகாக இருக்கிறது.
+2025-06-28 17:30:39,662 [INFO] Encoding gloss...
+2025-06-28 17:30:39,665 [INFO] Encoded gloss: tensor([[1, 1, 1]], device='cuda:0')
+2025-06-28 17:30:39,665 [INFO] Generating codes with transformer model...
+2025-06-28 17:30:40,098 [INFO] Generated codes: [96, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 388, 22, 22, 22]
+2025-06-28 17:30:40,098 [INFO] Quantizing and decoding pose...
+2025-06-28 17:30:40,199 [INFO] Decoded pose shape: torch.Size([400, 87, 3])
+2025-06-28 17:30:40,199 [INFO] Rendering pose frames to /tmp/tmpxd_2y9t0/frames
+2025-06-28 17:30:40,200 [INFO] POSE: (400, 87, 3) 
+2025-06-28 17:30:40,200 [INFO] Rendering pose 0
+2025-06-28 17:31:31,679 [INFO] Received request for /gloss_to_posevideo
+2025-06-28 17:31:31,679 [INFO] Gloss input: மலர் அழகாக இருக்கிறது.
+2025-06-28 17:31:31,679 [INFO] Encoding gloss...
+2025-06-28 17:31:31,682 [INFO] Encoded gloss: tensor([[1, 1, 1]], device='cuda:0')
+2025-06-28 17:31:31,682 [INFO] Generating codes with transformer model...
+2025-06-28 17:31:32,102 [INFO] Generated codes: [96, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 388, 22, 22, 22]
+2025-06-28 17:31:32,102 [INFO] Quantizing and decoding pose...
+2025-06-28 17:31:32,205 [INFO] Decoded pose shape: torch.Size([400, 87, 3])
+2025-06-28 17:31:32,206 [INFO] Rendering pose frames to /tmp/tmptfo0vsb6/frames
+2025-06-28 17:31:32,206 [INFO] POSE: (400, 87, 3) 
+2025-06-28 17:31:32,206 [INFO] Rendering pose 0
+2025-06-28 17:32:49,981 [INFO] Received request for /gloss_to_posevideo
+2025-06-28 17:32:49,981 [INFO] Gloss input: மலர் அழகாக இருக்கிறது.
+2025-06-28 17:32:49,981 [INFO] Encoding gloss...
+2025-06-28 17:32:49,983 [INFO] Encoded gloss: tensor([[1, 1, 1]], device='cuda:0')
+2025-06-28 17:32:49,983 [INFO] Generating codes with transformer model...
+2025-06-28 17:32:50,407 [INFO] Generated codes: [96, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 388, 22, 22, 22]
+2025-06-28 17:32:50,407 [INFO] Quantizing and decoding pose...
+2025-06-28 17:32:50,508 [INFO] Decoded pose shape: torch.Size([400, 87, 3])
+2025-06-28 17:32:50,509 [INFO] Rendering pose frames to /tmp/tmptz62nqsh/frames
+2025-06-28 17:32:50,509 [INFO] POSE: (400, 87, 3) 
+2025-06-28 17:32:50,509 [INFO] Rendering pose 0
+2025-06-28 17:33:30,581 [INFO] Received request for /gloss_to_posevideo
+2025-06-28 17:33:30,582 [INFO] Gloss input: மலர் அழகாக இருக்கிறது.
+2025-06-28 17:33:30,582 [INFO] Encoding gloss...
+2025-06-28 17:33:30,585 [INFO] Encoded gloss: tensor([[1, 1, 1]], device='cuda:0')
+2025-06-28 17:33:30,585 [INFO] Generating codes with transformer model...
+2025-06-28 17:33:30,991 [INFO] Generated codes: [96, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 388, 22, 22, 22]
+2025-06-28 17:33:30,991 [INFO] Quantizing and decoding pose...
+2025-06-28 17:33:31,092 [INFO] Decoded pose shape: torch.Size([400, 87, 3])
+2025-06-28 17:33:31,093 [INFO] Rendering pose frames to /tmp/tmpxpsz7krr/frames
+2025-06-28 17:33:31,093 [INFO] POSE: (400, 87, 3) 
+2025-06-28 17:33:31,093 [INFO] Rendering pose 0
+2025-06-28 17:33:31,093 [INFO] fligure is tsnldf
+2025-06-28 17:35:19,347 [INFO] Received request for /gloss_to_posevideo
+2025-06-28 17:35:19,347 [INFO] Gloss input: மலர் அழகாக இருக்கிறது.
+2025-06-28 17:35:19,347 [INFO] Encoding gloss...
+2025-06-28 17:35:19,350 [INFO] Encoded gloss: tensor([[1, 1, 1]], device='cuda:0')
+2025-06-28 17:35:19,350 [INFO] Generating codes with transformer model...
+2025-06-28 17:35:19,751 [INFO] Generated codes: [96, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 388, 22, 22, 22]
+2025-06-28 17:35:19,751 [INFO] Quantizing and decoding pose...
+2025-06-28 17:35:19,852 [INFO] Decoded pose shape: torch.Size([400, 87, 3])
+2025-06-28 17:35:19,853 [INFO] Rendering pose frames to /tmp/tmps8gef4dx/frames
+2025-06-28 17:35:19,853 [INFO] POSE: (400, 87, 3) 
+2025-06-28 17:35:19,853 [INFO] Rendering pose 0
+2025-06-28 17:35:25,545 [INFO] Rendering pose 100
+2025-06-28 17:35:31,330 [INFO] Rendering pose 200
+2025-06-28 17:35:36,909 [INFO] Rendering pose 300
+2025-06-28 17:35:42,670 [INFO] Frames rendered, compiling video...
+2025-06-28 17:35:46,008 [ERROR] Error in /gloss_to_posevideo: ffmpeg error (see stderr output for detail)
+Traceback (most recent call last):
+  File "/home/naren-root/Documents/SIP/Android-App/backend/app.py", line 266, in gloss_to_posevideo
+    video_path = pose_to_mp4(frames_dir, os.path.join(tmpdir, 'output'))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/naren-root/Documents/SIP/Android-App/backend/app.py", line 181, in pose_to_mp4
+    ffmpeg.input(avi_path).output(mp4_path, vcodec='libx264', acodec='aac').run(overwrite_output=True)
+  File "/home/naren-root/anaconda3/lib/python3.12/site-packages/ffmpeg/_run.py", line 325, in run
+    raise Error('ffmpeg', out, err)
+ffmpeg._run.Error: ffmpeg error (see stderr output for detail)
+2025-06-28 17:37:01,627 [INFO] Received request for /gloss_to_posevideo
+2025-06-28 17:37:01,627 [INFO] Gloss input: மலர் அழகாக இருக்கிறது.
+2025-06-28 17:37:01,627 [INFO] Encoding gloss...
+2025-06-28 17:37:01,642 [INFO] Encoded gloss: tensor([[1, 1, 1]], device='cuda:0')
+2025-06-28 17:37:01,642 [INFO] Generating codes with transformer model...
+2025-06-28 17:37:02,051 [INFO] Generated codes: [96, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 388, 22, 22, 22]
+2025-06-28 17:37:02,051 [INFO] Quantizing and decoding pose...
+2025-06-28 17:37:02,159 [INFO] Decoded pose shape: torch.Size([400, 87, 3])
+2025-06-28 17:37:02,159 [INFO] Rendering pose frames to /tmp/tmppzlk4ta4/frames
+2025-06-28 17:37:02,160 [INFO] POSE: (400, 87, 3) 
+2025-06-28 17:37:02,160 [INFO] Rendering pose 0
+2025-06-28 17:37:07,935 [INFO] Rendering pose 100
+2025-06-28 17:37:13,488 [INFO] Rendering pose 200
+2025-06-28 17:37:19,074 [INFO] Rendering pose 300
+2025-06-28 17:37:24,778 [INFO] Frames rendered, compiling video...
+2025-06-28 17:37:26,521 [ERROR] Error in /gloss_to_posevideo: ffmpeg error (see stderr output for detail)
+Traceback (most recent call last):
+  File "/home/naren-root/Documents/SIP/Android-App/backend/app.py", line 271, in gloss_to_posevideo
+    video_path = pose_to_mp4(frames_dir, os.path.join(tmpdir, 'output'))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/naren-root/Documents/SIP/Android-App/backend/app.py", line 186, in pose_to_mp4
+    ffmpeg.input(avi_path).output(mp4_path, vcodec='libx264', acodec='aac').run(overwrite_output=True)
+  File "/home/naren-root/anaconda3/lib/python3.12/site-packages/ffmpeg/_run.py", line 325, in run
+    raise Error('ffmpeg', out, err)
+ffmpeg._run.Error: ffmpeg error (see stderr output for detail)
+2025-06-28 17:41:37,257 [INFO] Received request for /gloss_to_posevideo
+2025-06-28 17:41:37,257 [INFO] Gloss input: மலர்.
+2025-06-28 17:41:37,257 [INFO] Encoding gloss...
+2025-06-28 17:41:37,279 [INFO] Encoded gloss: tensor([[1]], device='cuda:0')
+2025-06-28 17:41:37,279 [INFO] Generating codes with transformer model...
+2025-06-28 17:41:37,701 [INFO] Generated codes: [174, 96, 96, 96, 96, 96, 96, 565, 565, 565, 565, 565, 96, 96, 96, 96, 96, 683, 683, 96, 96, 96, 96, 96, 96, 683, 683, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 388, 22, 353, 96, 96, 96, 96, 22, 22, 22, 22, 22, 96, 96, 388, 22, 22, 22, 22, 96, 96, 96, 96, 96, 565, 565, 565, 565, 353, 96, 96, 96, 96, 96, 388, 22, 388, 22, 353, 96, 96, 96, 96, 388, 22, 388, 22, 353, 96, 388, 22, 388, 388, 22, 388, 565, 565]
+2025-06-28 17:41:37,701 [INFO] Quantizing and decoding pose...
+2025-06-28 17:41:37,820 [INFO] Decoded pose shape: torch.Size([400, 87, 3])
+2025-06-28 17:41:37,820 [INFO] Rendering pose frames to /tmp/tmpqne63hm0/frames
+2025-06-28 17:41:37,821 [INFO] POSE: (400, 87, 3) 
+2025-06-28 17:41:37,821 [INFO] Rendering pose 0
+2025-06-28 17:41:43,653 [INFO] Rendering pose 100
+2025-06-28 17:41:49,129 [INFO] Rendering pose 200
+2025-06-28 17:41:54,828 [INFO] Rendering pose 300
+2025-06-28 17:42:00,753 [INFO] Frames rendered, compiling video...
+2025-06-28 17:42:02,616 [ERROR] Error in /gloss_to_posevideo: ffmpeg error (see stderr output for detail)
+Traceback (most recent call last):
+  File "/home/naren-root/Documents/SIP/Android-App/backend/app.py", line 275, in gloss_to_posevideo
+    video_path = pose_to_mp4(frames_dir, os.path.join(tmpdir, 'output'))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/naren-root/Documents/SIP/Android-App/backend/app.py", line 188, in pose_to_mp4
+    ).run(overwrite_output=True, capture_stdout=True, capture_stderr=True)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/naren-root/anaconda3/lib/python3.12/site-packages/ffmpeg/_run.py", line 325, in run
+    raise Error('ffmpeg', out, err)
+ffmpeg._run.Error: ffmpeg error (see stderr output for detail)
+2025-06-28 17:43:17,946 [INFO] Received request for /gloss_to_posevideo
+2025-06-28 17:43:17,947 [INFO] Gloss input: மலர்
+2025-06-28 17:43:17,947 [INFO] Encoding gloss...
+2025-06-28 17:43:17,950 [INFO] Encoded gloss: tensor([[1]], device='cuda:0')
+2025-06-28 17:43:17,950 [INFO] Generating codes with transformer model...
+2025-06-28 17:43:18,359 [INFO] Generated codes: [174, 96, 96, 96, 96, 96, 96, 565, 565, 565, 565, 565, 96, 96, 96, 96, 96, 683, 683, 96, 96, 96, 96, 96, 96, 683, 683, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 388, 22, 353, 96, 96, 96, 96, 22, 22, 22, 22, 22, 96, 96, 388, 22, 22, 22, 22, 96, 96, 96, 96, 96, 565, 565, 565, 565, 353, 96, 96, 96, 96, 96, 388, 22, 388, 22, 353, 96, 96, 96, 96, 388, 22, 388, 22, 353, 96, 388, 22, 388, 388, 22, 388, 565, 565]
+2025-06-28 17:43:18,359 [INFO] Quantizing and decoding pose...
+2025-06-28 17:43:18,502 [INFO] Decoded pose shape: torch.Size([400, 87, 3])
+2025-06-28 17:43:18,502 [INFO] Rendering pose frames to /tmp/tmpvq3f32sk/frames
+2025-06-28 17:43:18,502 [INFO] POSE: (400, 87, 3) 
+2025-06-28 17:43:18,503 [INFO] Rendering pose 0
+2025-06-28 17:43:24,230 [INFO] Rendering pose 100
+2025-06-28 17:43:29,991 [INFO] Rendering pose 200
+2025-06-28 17:43:35,482 [INFO] Rendering pose 300
+2025-06-28 17:43:41,103 [INFO] Frames rendered, compiling video...
+2025-06-28 17:43:42,551 [ERROR] Error in /gloss_to_posevideo: ffmpeg error (see stderr output for detail)
+Traceback (most recent call last):
+  File "/home/naren-root/Documents/SIP/Android-App/backend/app.py", line 271, in gloss_to_posevideo
+    video_path = pose_to_mp4(frames_dir, os.path.join(tmpdir, 'output'))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/naren-root/Documents/SIP/Android-App/backend/app.py", line 186, in pose_to_mp4
+    ffmpeg.input(avi_path).output(mp4_path, vcodec='libx264', acodec='aac').run(overwrite_output=True)
+  File "/home/naren-root/anaconda3/lib/python3.12/site-packages/ffmpeg/_run.py", line 325, in run
+    raise Error('ffmpeg', out, err)
+ffmpeg._run.Error: ffmpeg error (see stderr output for detail)
+2025-06-28 17:45:48,183 [INFO] Received request for /gloss_to_posevideo
+2025-06-28 17:45:48,183 [INFO] Gloss input: மலர்
+2025-06-28 17:45:48,183 [INFO] Encoding gloss...
+2025-06-28 17:45:48,197 [INFO] Encoded gloss: tensor([[1]], device='cuda:0')
+2025-06-28 17:45:48,198 [INFO] Generating codes with transformer model...
+2025-06-28 17:45:48,583 [INFO] Generated codes: [174, 96, 96, 96, 96, 96, 96, 565, 565, 565, 565, 565, 96, 96, 96, 96, 96, 683, 683, 96, 96, 96, 96, 96, 96, 683, 683, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 388, 22, 353, 96, 96, 96, 96, 22, 22, 22, 22, 22, 96, 96, 388, 22, 22, 22, 22, 96, 96, 96, 96, 96, 565, 565, 565, 565, 353, 96, 96, 96, 96, 96, 388, 22, 388, 22, 353, 96, 96, 96, 96, 388, 22, 388, 22, 353, 96, 388, 22, 388, 388, 22, 388, 565, 565]
+2025-06-28 17:45:48,584 [INFO] Quantizing and decoding pose...
+2025-06-28 17:45:48,694 [INFO] Decoded pose shape: torch.Size([400, 87, 3])
+2025-06-28 17:45:48,695 [INFO] Rendering pose frames to /tmp/tmp1dz28gic/frames
+2025-06-28 17:45:48,695 [INFO] POSE: (400, 87, 3) 
+2025-06-28 17:45:48,695 [INFO] Rendering pose 0
+2025-06-28 17:45:54,400 [INFO] Rendering pose 100
+2025-06-28 17:45:59,947 [INFO] Rendering pose 200
+2025-06-28 17:46:05,465 [INFO] Rendering pose 300
+2025-06-28 17:46:11,111 [INFO] Frames rendered, compiling video...
+2025-06-28 17:46:12,022 [INFO] Video created at /tmp/tmp1dz28gic/output.mp4
+2025-06-28 17:46:12,022 [INFO] Sending video file response.
+2025-06-28 17:48:30,752 [INFO] Received request for /gloss_to_posevideo
+2025-06-28 17:48:30,752 [INFO] Gloss input: மலர்
+2025-06-28 17:48:30,752 [INFO] Encoding gloss...
+2025-06-28 17:48:30,761 [INFO] Encoded gloss: tensor([[1]], device='cuda:0')
+2025-06-28 17:48:30,762 [INFO] Generating codes with transformer model...
+2025-06-28 17:48:31,187 [INFO] Generated codes: [174, 96, 96, 96, 96, 96, 96, 565, 565, 565, 565, 565, 96, 96, 96, 96, 96, 683, 683, 96, 96, 96, 96, 96, 96, 683, 683, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 388, 22, 353, 96, 96, 96, 96, 22, 22, 22, 22, 22, 96, 96, 388, 22, 22, 22, 22, 96, 96, 96, 96, 96, 565, 565, 565, 565, 353, 96, 96, 96, 96, 96, 388, 22, 388, 22, 353, 96, 96, 96, 96, 388, 22, 388, 22, 353, 96, 388, 22, 388, 388, 22, 388, 565, 565]
+2025-06-28 17:48:31,187 [INFO] Quantizing and decoding pose...
+2025-06-28 17:48:31,307 [INFO] Decoded pose shape: torch.Size([400, 87, 3])
+2025-06-28 17:48:31,307 [INFO] Rendering pose frames to /tmp/tmpyn33gqje/frames
+2025-06-28 17:48:31,308 [INFO] POSE: (400, 87, 3) 
+2025-06-28 17:48:31,308 [INFO] Rendering pose 0
+2025-06-28 17:48:36,809 [INFO] Rendering pose 100
+2025-06-28 17:48:42,389 [INFO] Rendering pose 200
+2025-06-28 17:48:48,137 [INFO] Rendering pose 300
+2025-06-28 17:48:53,841 [INFO] Frames rendered, compiling video...
+2025-06-28 17:48:54,751 [INFO] Video created at /tmp/tmpyn33gqje/output.mp4
+2025-06-28 17:48:54,751 [INFO] Sending video file response.
+2025-06-28 17:51:08,125 [INFO] Received request for /gloss_to_posevideo
+2025-06-28 17:51:08,125 [INFO] Gloss input: மலர்
+2025-06-28 17:51:08,125 [INFO] Encoding gloss...
+2025-06-28 17:51:08,128 [INFO] Encoded gloss: tensor([[1]], device='cuda:0')
+2025-06-28 17:51:08,128 [INFO] Generating codes with transformer model...
+2025-06-28 17:51:08,555 [INFO] Generated codes: [174, 96, 96, 96, 96, 96, 96, 565, 565, 565, 565, 565, 96, 96, 96, 96, 96, 683, 683, 96, 96, 96, 96, 96, 96, 683, 683, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 388, 22, 353, 96, 96, 96, 96, 22, 22, 22, 22, 22, 96, 96, 388, 22, 22, 22, 22, 96, 96, 96, 96, 96, 565, 565, 565, 565, 353, 96, 96, 96, 96, 96, 388, 22, 388, 22, 353, 96, 96, 96, 96, 388, 22, 388, 22, 353, 96, 388, 22, 388, 388, 22, 388, 565, 565]
+2025-06-28 17:51:08,555 [INFO] Quantizing and decoding pose...
+2025-06-28 17:51:08,666 [INFO] Decoded pose shape: torch.Size([400, 87, 3])
+2025-06-28 17:51:08,666 [INFO] Rendering pose frames to /tmp/tmp2i9hm63f/frames
+2025-06-28 17:51:08,667 [INFO] POSE: (400, 87, 3) 
+2025-06-28 17:51:08,667 [INFO] Rendering pose 0
+2025-06-28 17:51:14,285 [INFO] Rendering pose 100
+2025-06-28 17:51:19,756 [INFO] Rendering pose 200
+2025-06-28 17:51:25,434 [INFO] Rendering pose 300
+2025-06-28 17:51:31,158 [INFO] Frames rendered, compiling video...
+2025-06-28 17:51:32,062 [INFO] Video created at /tmp/tmp2i9hm63f/output.mp4
+2025-06-28 17:51:32,062 [INFO] Sending video file response.
+2025-06-28 17:53:45,190 [INFO] Received request for /gloss_to_posevideo
+2025-06-28 17:53:45,191 [INFO] Gloss input: அவள் மிகவும் கவலையடைந்தாள்
+2025-06-28 17:53:45,191 [INFO] Encoding gloss...
+2025-06-28 17:53:45,200 [INFO] Encoded gloss: tensor([[1, 1, 1]], device='cuda:0')
+2025-06-28 17:53:45,200 [INFO] Generating codes with transformer model...
+2025-06-28 17:53:45,432 [INFO] Generated codes: [96, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 388, 22, 22, 22]
+2025-06-28 17:53:45,432 [INFO] Quantizing and decoding pose...
+2025-06-28 17:53:45,433 [INFO] Decoded pose shape: torch.Size([400, 87, 3])
+2025-06-28 17:53:45,433 [INFO] Rendering pose frames to /tmp/tmp2istjgyb/frames
+2025-06-28 17:53:45,433 [INFO] POSE: (400, 87, 3) 
+2025-06-28 17:53:45,433 [INFO] Rendering pose 0
+2025-06-28 17:53:51,135 [INFO] Rendering pose 100
+2025-06-28 17:53:56,734 [INFO] Rendering pose 200
+2025-06-28 17:54:02,514 [INFO] Rendering pose 300
+2025-06-28 17:54:08,469 [INFO] Frames rendered, compiling video...
+2025-06-28 17:54:09,392 [INFO] Video created at /tmp/tmp2istjgyb/output.mp4
+2025-06-28 17:54:09,392 [INFO] Sending video file response.
+2025-06-28 17:54:29,802 [INFO] Received request for /gloss_to_posevideo
+2025-06-28 17:54:29,802 [INFO] Gloss input: தவளை ஓடிவிட்டது
+2025-06-28 17:54:29,802 [INFO] Encoding gloss...
+2025-06-28 17:54:29,813 [INFO] Encoded gloss: tensor([[1, 1]], device='cuda:0')
+2025-06-28 17:54:29,813 [INFO] Generating codes with transformer model...
+2025-06-28 17:54:30,043 [INFO] Generated codes: [174, 22, 96, 96, 96, 96, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 353, 96, 96, 96, 96, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 388, 22, 22, 22, 22, 353, 96, 96, 388, 22, 22, 22, 22, 22]
+2025-06-28 17:54:30,043 [INFO] Quantizing and decoding pose...
+2025-06-28 17:54:30,044 [INFO] Decoded pose shape: torch.Size([400, 87, 3])
+2025-06-28 17:54:30,044 [INFO] Rendering pose frames to /tmp/tmpr1cyq7sr/frames
+2025-06-28 17:54:30,045 [INFO] POSE: (400, 87, 3) 
+2025-06-28 17:54:30,045 [INFO] Rendering pose 0
+2025-06-28 17:54:35,833 [INFO] Rendering pose 100
+2025-06-28 17:54:41,421 [INFO] Rendering pose 200
+2025-06-28 17:54:46,986 [INFO] Rendering pose 300
+2025-06-28 17:54:52,681 [INFO] Frames rendered, compiling video...
+2025-06-28 17:54:53,619 [INFO] Video created at /tmp/tmpr1cyq7sr/output.mp4
+2025-06-28 17:54:53,619 [INFO] Sending video file response.
+2025-06-28 17:55:50,505 [INFO] Received request for /gloss_to_posevideo
+2025-06-28 17:55:50,505 [INFO] Gloss input: ததடனம
+2025-06-28 17:55:50,505 [INFO] Encoding gloss...
+2025-06-28 17:55:50,519 [INFO] Encoded gloss: tensor([[6556]], device='cuda:0')
+2025-06-28 17:55:50,520 [INFO] Generating codes with transformer model...
+2025-06-28 17:55:50,731 [INFO] Generated codes: [102, 102, 102, 102, 102, 102, 102, 485, 376, 485, 102, 102, 102, 102, 102, 102, 102, 102, 102, 102, 102, 102, 102, 102, 102, 102, 102, 102, 102, 102, 102, 102, 102, 102, 308, 485, 485, 376, 485, 376, 376, 376, 485, 485, 485, 485, 485, 376, 376, 102, 102, 102, 102, 102, 102, 102, 102, 102, 102, 102, 102, 102, 102, 485, 485, 485, 376, 308, 308, 485, 308, 485, 485, 485, 376, 376, 376, 376, 562, 485, 485, 485, 308, 376, 376, 376, 376, 485, 308, 485, 485, 485, 376, 376, 376, 485, 376, 485, 485, 485]
+2025-06-28 17:55:50,731 [INFO] Quantizing and decoding pose...
+2025-06-28 17:55:50,732 [INFO] Decoded pose shape: torch.Size([400, 87, 3])
+2025-06-28 17:55:50,732 [INFO] Rendering pose frames to /tmp/tmpk4romiq9/frames
+2025-06-28 17:55:50,733 [INFO] POSE: (400, 87, 3) 
+2025-06-28 17:55:50,733 [INFO] Rendering pose 0
+2025-06-28 17:55:56,613 [INFO] Rendering pose 100
+2025-06-28 17:56:02,354 [INFO] Rendering pose 200
+2025-06-28 17:56:07,916 [INFO] Rendering pose 300
+2025-06-28 17:56:13,876 [INFO] Frames rendered, compiling video...
+2025-06-28 17:56:14,839 [INFO] Video created at /tmp/tmpk4romiq9/output.mp4
+2025-06-28 17:56:14,839 [INFO] Sending video file response.
+2025-06-28 18:14:12,493 [INFO] Received request for /gloss_to_posevideo
+2025-06-28 18:14:12,493 [INFO] Gloss input: நீங்கள் பார்த்த சில மரங்களின் பெயர்களைச் சொல்லுங்கள்
+2025-06-28 18:14:12,493 [INFO] Encoding gloss...
+2025-06-28 18:14:12,507 [INFO] Encoded gloss: tensor([[1, 1, 1, 1, 1, 1]], device='cuda:0')
+2025-06-28 18:14:12,507 [INFO] Generating codes with transformer model...
+2025-06-28 18:14:12,716 [INFO] Generated codes: [707, 468, 468, 468, 468, 96, 96, 565, 565, 565, 565, 565, 244, 22, 96, 96, 96, 96, 96, 244, 244, 22, 22, 22, 22, 22, 96, 96, 96, 96, 565, 565, 244, 244, 244, 244, 244, 244, 96, 96, 96, 96, 96, 388, 244, 244, 244, 244, 22, 22, 22, 22, 22, 96, 96, 96, 96, 388, 565, 244, 244, 244, 244, 565, 565, 565, 244, 22, 22, 22, 244, 244, 244, 244, 22, 96, 96, 96, 96, 388, 244, 244, 244, 244, 244, 244, 244, 468, 468, 468, 468, 468, 468, 468, 468, 468, 96, 388, 565, 565]
+2025-06-28 18:14:12,716 [INFO] Quantizing and decoding pose...
+2025-06-28 18:14:12,717 [INFO] Decoded pose shape: torch.Size([400, 87, 3])
+2025-06-28 18:14:12,717 [INFO] Rendering pose frames to /tmp/tmpxfhr1eeu/frames
+2025-06-28 18:14:12,717 [INFO] POSE: (400, 87, 3) 
+2025-06-28 18:14:12,718 [INFO] Rendering pose 0
+2025-06-28 18:14:18,437 [INFO] Rendering pose 100
+2025-06-28 18:14:24,126 [INFO] Rendering pose 200
+2025-06-28 18:14:30,092 [INFO] Rendering pose 300
+2025-06-28 18:14:36,202 [INFO] Frames rendered, compiling video...
+2025-06-28 18:14:37,102 [INFO] Video created at /tmp/tmpxfhr1eeu/output.mp4
+2025-06-28 18:14:37,102 [INFO] Sending video file response.
+2025-06-28 22:31:54,386 [INFO] Loaded tokenizer with vocab size: 27430
+2025-06-28 22:31:55,302 [INFO] Loaded tokenizer with vocab size: 27430
+2025-06-28 22:33:06,307 [INFO] Loaded tokenizer with vocab size: 27430
+2025-06-28 22:33:07,241 [INFO] Loaded tokenizer with vocab size: 27430
+2025-06-28 22:33:13,221 [INFO] Received request for /gloss_to_posevideo
+2025-06-28 22:33:13,221 [INFO] Gloss input: வணக்கம், இன்று எப்படி இருக்கிறீர்கள்?
+2025-06-28 22:33:13,221 [INFO] Encoding gloss...
+2025-06-28 22:33:13,225 [INFO] Encoded gloss: tensor([[   2, 1348,  626,  390,  102,  971,   20,    3]], device='cuda:0')
+2025-06-28 22:33:13,225 [INFO] Generating codes with transformer model...
+2025-06-28 22:33:13,521 [INFO] Generated codes: [490, 701, 701, 490, 490, 31, 29, 224, 245, 716, 716, 471, 665, 270, 582, 582, 663, 758, 617, 161, 643, 190, 760, 311, 306, 375, 693, 491, 586, 395, 213, 716, 480, 480, 190, 245, 245, 245, 498, 498, 526, 80, 665, 701, 701, 701, 701]
+2025-06-28 22:33:13,521 [INFO] Quantizing and decoding pose...
+2025-06-28 22:33:13,620 [INFO] Decoded pose shape: torch.Size([188, 87, 3])
+2025-06-28 22:33:13,621 [INFO] Rendering pose frames to /tmp/tmpc_h9y7ag/frames
+2025-06-28 22:33:13,621 [INFO] POSE: (188, 87, 3) 
+2025-06-28 22:33:13,621 [INFO] Rendering pose 0
+2025-06-28 22:33:19,663 [INFO] Rendering pose 100
+2025-06-28 22:33:25,867 [INFO] Frames rendered, compiling video...
+2025-06-28 22:33:26,440 [INFO] Video created at /tmp/tmpc_h9y7ag/output.mp4
+2025-06-28 22:33:26,440 [INFO] Sending video file response.
+2025-06-28 23:48:18,307 [INFO] Loaded tokenizer with vocab size: 27430
+2025-06-28 23:48:21,588 [INFO] Loaded tokenizer with vocab size: 27430
+2025-06-28 23:48:22,560 [INFO] Loaded tokenizer with vocab size: 27430
+2025-06-28 23:48:45,534 [INFO] Received request for /gloss_to_posevideo
+2025-06-28 23:48:45,534 [INFO] Gloss input: hghj
+2025-06-28 23:48:45,534 [INFO] Encoding gloss...
+2025-06-28 23:48:45,546 [INFO] Encoded gloss: tensor([[ 2, 31, 30, 31, 33,  3]], device='cuda:0')
+2025-06-28 23:48:45,546 [INFO] Generating codes with transformer model...
+2025-06-28 23:48:45,779 [INFO] Generated codes: [20, 34, 383, 318, 572, 598, 492, 680, 43, 5, 691, 343, 85, 609, 609, 557, 343, 326, 371, 671, 572, 572, 586, 586, 586]
+2025-06-28 23:48:45,780 [INFO] Quantizing and decoding pose...
+2025-06-28 23:48:45,876 [INFO] Decoded pose shape: torch.Size([100, 87, 3])
+2025-06-28 23:48:45,876 [INFO] Rendering pose frames to /tmp/tmpx9jdlrjh/frames
+2025-06-28 23:48:45,877 [INFO] POSE: (100, 87, 3) 
+2025-06-28 23:48:45,877 [INFO] Rendering pose 0
+2025-06-28 23:48:51,017 [INFO] Frames rendered, compiling video...
+2025-06-28 23:48:51,239 [INFO] Video created at /tmp/tmpx9jdlrjh/output.mp4
+2025-06-28 23:48:51,239 [INFO] Sending video file response.
+2025-06-29 00:16:08,890 [INFO] Received request for /gloss_to_posevideo
+2025-06-29 00:16:08,898 [INFO] Gloss input: "hi"
+2025-06-29 00:16:08,898 [INFO] Encoding gloss...
+2025-06-29 00:16:08,909 [INFO] Encoded gloss: tensor([[ 2, 31, 32,  3]], device='cuda:0')
+2025-06-29 00:16:08,909 [INFO] Generating codes with transformer model...
+2025-06-29 00:16:08,947 [INFO] Generated codes: [312, 312, 312, 312, 312, 312, 252, 208, 407, 407, 35, 765, 595, 595, 595, 580, 257, 129, 629, 629]
+2025-06-29 00:16:08,947 [INFO] Quantizing and decoding pose...
+2025-06-29 00:16:08,959 [INFO] Decoded pose shape: torch.Size([80, 87, 3])
+2025-06-29 00:16:08,959 [INFO] Rendering pose frames to /tmp/tmpeflonu1q/frames
+2025-06-29 00:16:08,959 [INFO] POSE: (80, 87, 3) 
+2025-06-29 00:16:08,959 [INFO] Rendering pose 0
+2025-06-29 00:16:13,337 [INFO] Frames rendered, compiling video...
+2025-06-29 00:16:13,509 [INFO] Video created at /tmp/tmpeflonu1q/output.mp4
+2025-06-29 00:16:13,509 [INFO] Sending video file response.
+2025-06-29 00:21:27,426 [INFO] Received request for /gloss_to_posevideo
+2025-06-29 00:21:27,426 [INFO] Gloss input: "hi"
+2025-06-29 00:21:27,426 [INFO] Encoding gloss...
+2025-06-29 00:21:27,457 [INFO] Encoded gloss: tensor([[ 2, 31, 32,  3]], device='cuda:0')
+2025-06-29 00:21:27,457 [INFO] Generating codes with transformer model...
+2025-06-29 00:21:27,494 [INFO] Generated codes: [312, 312, 312, 312, 312, 312, 252, 208, 407, 407, 35, 765, 595, 595, 595, 580, 257, 129, 629, 629]
+2025-06-29 00:21:27,494 [INFO] Quantizing and decoding pose...
+2025-06-29 00:21:27,495 [INFO] Decoded pose shape: torch.Size([80, 87, 3])
+2025-06-29 00:21:27,495 [INFO] Rendering pose frames to /tmp/tmp0lia6n3t/frames
+2025-06-29 00:21:27,495 [INFO] POSE: (80, 87, 3) 
+2025-06-29 00:21:27,495 [INFO] Rendering pose 0
+2025-06-29 00:21:31,775 [INFO] Frames rendered, compiling video...
+2025-06-29 00:21:31,944 [INFO] Video created at /tmp/tmp0lia6n3t/output.mp4
+2025-06-29 00:21:31,945 [INFO] Sending video file response.
+2025-06-29 00:22:37,467 [INFO] Received request for /gloss_to_posevideo
+2025-06-29 00:22:37,467 [INFO] Gloss input: "hi"
+2025-06-29 00:22:37,467 [INFO] Encoding gloss...
+2025-06-29 00:22:37,477 [INFO] Encoded gloss: tensor([[ 2, 31, 32,  3]], device='cuda:0')
+2025-06-29 00:22:37,477 [INFO] Generating codes with transformer model...
+2025-06-29 00:22:37,519 [INFO] Generated codes: [312, 312, 312, 312, 312, 312, 252, 208, 407, 407, 35, 765, 595, 595, 595, 580, 257, 129, 629, 629]
+2025-06-29 00:22:37,519 [INFO] Quantizing and decoding pose...
+2025-06-29 00:22:37,520 [INFO] Decoded pose shape: torch.Size([80, 87, 3])
+2025-06-29 00:22:37,521 [INFO] Rendering pose frames to /tmp/tmpf2b8hs7q/frames
+2025-06-29 00:22:37,521 [INFO] POSE: (80, 87, 3) 
+2025-06-29 00:22:37,521 [INFO] Rendering pose 0
+2025-06-29 00:22:41,599 [INFO] Frames rendered, compiling video...
+2025-06-29 00:22:41,770 [INFO] Video created at /tmp/tmpf2b8hs7q/output.mp4
+2025-06-29 00:22:41,770 [INFO] Sending video file response.
+2025-06-29 00:24:21,521 [INFO] Received request for /gloss_to_posevideo
+2025-06-29 00:24:21,521 [INFO] Gloss input: "hi"
+2025-06-29 00:24:21,521 [INFO] Encoding gloss...
+2025-06-29 00:24:21,530 [INFO] Encoded gloss: tensor([[ 2, 31, 32,  3]], device='cuda:0')
+2025-06-29 00:24:21,530 [INFO] Generating codes with transformer model...
+2025-06-29 00:24:21,570 [INFO] Generated codes: [312, 312, 312, 312, 312, 312, 252, 208, 407, 407, 35, 765, 595, 595, 595, 580, 257, 129, 629, 629]
+2025-06-29 00:24:21,570 [INFO] Quantizing and decoding pose...
+2025-06-29 00:24:21,571 [INFO] Decoded pose shape: torch.Size([80, 87, 3])
+2025-06-29 00:24:21,571 [INFO] Rendering pose frames to /tmp/tmprnzrqk85/frames
+2025-06-29 00:24:21,571 [INFO] POSE: (80, 87, 3) 
+2025-06-29 00:24:21,571 [INFO] Rendering pose 0
+2025-06-29 00:24:25,833 [INFO] Frames rendered, compiling video...
+2025-06-29 00:24:26,002 [INFO] Video created at /tmp/tmprnzrqk85/output.mp4
+2025-06-29 00:24:26,002 [INFO] Sending video file response.
+2025-06-29 00:27:01,890 [INFO] Received request for /gloss_to_posevideo
+2025-06-29 00:27:01,890 [INFO] Gloss input: "hi"
+2025-06-29 00:27:01,890 [INFO] Encoding gloss...
+2025-06-29 00:27:01,911 [INFO] Encoded gloss: tensor([[ 2, 31, 32,  3]], device='cuda:0')
+2025-06-29 00:27:01,912 [INFO] Generating codes with transformer model...
+2025-06-29 00:27:01,949 [INFO] Generated codes: [312, 312, 312, 312, 312, 312, 252, 208, 407, 407, 35, 765, 595, 595, 595, 580, 257, 129, 629, 629]
+2025-06-29 00:27:01,949 [INFO] Quantizing and decoding pose...
+2025-06-29 00:27:01,950 [INFO] Decoded pose shape: torch.Size([80, 87, 3])
+2025-06-29 00:27:01,950 [INFO] Rendering pose frames to /tmp/tmp4jflck6v/frames
+2025-06-29 00:27:01,950 [INFO] POSE: (80, 87, 3) 
+2025-06-29 00:27:01,950 [INFO] Rendering pose 0
+2025-06-29 00:27:06,227 [INFO] Frames rendered, compiling video...
+2025-06-29 00:27:06,397 [INFO] Video created at /tmp/tmp4jflck6v/output.mp4
+2025-06-29 00:27:06,397 [INFO] Sending video file response.
+2025-06-29 00:30:18,481 [INFO] Received request for /gloss_to_posevideo
+2025-06-29 00:30:18,481 [INFO] Gloss input: "hi"
+2025-06-29 00:30:18,481 [INFO] Encoding gloss...
+2025-06-29 00:30:18,500 [INFO] Encoded gloss: tensor([[ 2, 31, 32,  3]], device='cuda:0')
+2025-06-29 00:30:18,500 [INFO] Generating codes with transformer model...
+2025-06-29 00:30:18,540 [INFO] Generated codes: [312, 312, 312, 312, 312, 312, 252, 208, 407, 407, 35, 765, 595, 595, 595, 580, 257, 129, 629, 629]
+2025-06-29 00:30:18,540 [INFO] Quantizing and decoding pose...
+2025-06-29 00:30:18,541 [INFO] Decoded pose shape: torch.Size([80, 87, 3])
+2025-06-29 00:30:18,541 [INFO] Rendering pose frames to /tmp/tmp4vhc0qj8/frames
+2025-06-29 00:30:18,541 [INFO] POSE: (80, 87, 3) 
+2025-06-29 00:30:18,541 [INFO] Rendering pose 0
+2025-06-29 00:30:22,874 [INFO] Frames rendered, compiling video...
+2025-06-29 00:30:23,045 [INFO] Video created at /tmp/tmp4vhc0qj8/output.mp4
+2025-06-29 00:30:23,045 [INFO] Sending video file response.
